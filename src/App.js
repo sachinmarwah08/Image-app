@@ -20,7 +20,6 @@ const App = () => {
     );
     const data = await response.data;
     setPhotos(data);
-    console.log(data);
     setLoading(false);
   };
 
